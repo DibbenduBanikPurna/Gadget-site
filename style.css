@@ -1,0 +1,50 @@
+.container{
+    margin-bottom: 120px;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.car{
+    background-image: url(bg-2.png);
+    background-repeat: no-repeat;
+    background-position: relative;
+    top:20%
+}
+.cars{
+    background-image: url(bg-1.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+.card{
+    border: none;
+    box-shadow: 10px 10px 40px gainsboro;
+    border-radius: 10px;
+    
+}
+.container-fluid{
+    margin-bottom: 100px;
+}
+.float{
+    float: right;
+    font-size: 18px;
+    color: orange;
+}
+.cat{
+   box-shadow: 10px 10px 40px gainsboro ;
+   padding:50px;
+   border-radius: 30px;
+    
+}
+hr{
+    width: 20%;
+   
+}
+.b{
+    border-bottom: 5px solid orange;
+    width: 150px;
+    margin: 0 auto;
+}

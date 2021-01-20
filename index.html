@@ -1,11 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hot Gadget</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
 </head>
 <body>
-    <h1>hi</h1>
+  <!--navbar-->
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      
+        <a class="navbar-brand" href="#"><img class="img-fluid" src="logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#product">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about us">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact us">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      
+    </nav>
+    </div>
+
+
+  
+  <!--carousel-->
+  <div class="container"id="home">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row align-items-center text-align-center">
+            <div class="col-md-6">
+              <h1>MackBook Pro </h1>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat laborum asperiores labore atque! Unde ad repudiandae dolores minus porro vero!</p>
+              <button class="button">Buy Now -></button>
+              
+            </div>
+            <div class="col-md-6 cars">
+              <img src="banner-products/product-1.png" class="d-block w-100" alt="...">
+
+            </div>
+            
+          </div>
+        
+        </div>
+        <div class="carousel-item">
+          <div class="row align-items-center text-align-center">
+            <div class="col-md-6">
+              <h1>Microphone Gadget</h1>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quo quas a cumque adipisci. Minima deserunt error dolorum obcaecati reiciendis!</p>
+              <button class="button">Buy Now -></button>
+
+            </div>
+            <div class="col-md-6 cars">
+              <img class="img-fluid" src="banner-products/slider-1.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+         
+        </div>
+        <div class="carousel-item">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <h1>Jackpot HeadPhone</h1>
+              <p class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum doloremque consequuntur, eaque est nobis aperiam? Blanditiis explicabo optio saepe soluta.</p>
+              <button class="button">Buy Now -></button>
+            </div>
+            <div class="col-md-6 cars">
+              <img class="img-fluid"  src="banner-products/slider-3.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+         
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+
+  </div>
+  
+
+  <!---phone-->
+  <div class="container-fluid" id="product">
+    <h3>SmartPhone <span class="float">See All</span></h3>
+    <br>
+    
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col-md-4 ">
+        <div class="card h-100">
+          <img class="img-fluid" src="phone/phone-2.png" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <div>
+              <h5 class="card-title mt-5">iPhone 11 Pro</h5>
+              <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi! </p>
+              <h5 class="mb-4">$999</h5>
+              
+              <button  class="button">Buy Now -></button>
+            </div>
+           
+          </div>
+         
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="phone/phone-3.png" class="card-img-top img-fluid mb-3" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title mt-2">Samsung Galaxy Note 10 +</h5>
+            <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi!</p>
+            <h5 class="mb-4">$2799</h5>
+            <button class="button">Buy Now -></button>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="phone/phone-1.png" class="card-img-top img-fluid" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title mt-4">Poco XNFC 3</h5>
+            <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi!</p>
+            <h5 class="mb-4">$999</h5>
+            <button class="button">Buy Now -></button>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--laptop-->
+  <div class="container-fluid">
+    <h3>Laptop <span class="float">See All</span></h3>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col-md-4 ">
+        <div class="card h-100 px-2">
+          <img src="laptop/product-1.png" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <div>
+              <h5 class="card-title">Asus VivoBook</h5>
+              <p class="card-text text-muted mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi!</p>
+              
+              <h5 class="mb-4">$999</h5>
+
+              <button  class="button">Buy Now -></button>
+            </div>
+           
+          </div>
+         
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="laptop/product-2.png" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-1">Razer Blade 15</h5>
+            <p class="card-text text-muted mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi!</p>
+            <h5 class="mb-3">$2799</h5>
+            <button class="button">Buy Now -></button>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="laptop/product-3.png" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title ">Xioami Mi NoteBook Pro</h5>
+            <p class="card-text text-muted mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi!</p>
+            <h5 class="mb-3">$999</h5>
+            <button class="button">Buy Now -></button>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!---category part-->
+  <div class="container" id="about us">
+    <h1 class="text-center b">Categories</h1>
+    
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-center">
+            <div class="cat ">
+              <img src="Categories/bag.png">
+              <h2 class="text-center mt-4">Bag</h2>
+
+            </div>
+            
+          </div>
+          <div class="col-md-6">
+            <div class="cat mb-5">
+            <img src="Categories/perfume.png">
+            <h2 class="text-center mt-3">Beauty</h2>
+            </div>
+            <div class="cat">
+              <img src="Categories/shoe.png">
+              <h2 class="text-center">Shoes</h2>
+            </div>
+            
+           
+          </div>
+        </div>
+        
+      </div>
+      <div class="col-md-6  d-flex align-items-center">
+        <img class="img-fluid" src="Categories/pale-order.png">
+
+      </div>
+    </div>
+  </div>
+  <!--contact-->
+  <div class="container" id="contact us">
+    <h2 class="text-center">Contact Us</h2>
+    <form>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button class="form-control">Submit</button>
+    </form>
+  </div>
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
 </body>
 </html>
